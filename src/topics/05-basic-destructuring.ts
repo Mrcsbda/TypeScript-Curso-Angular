@@ -28,4 +28,10 @@ const { author } = details
 const { details: { year } } = audioPlayer;
 
 console.log(anotherSong, year, author, audioVolumen)
+ // desestructuración de objetos
+const  dbz: string[] = ["Goku", "Vegeta"]
+
+const [p1,p2,p3 = "Not Found"] = dbz
+
+console.log(p3)
 export { };
